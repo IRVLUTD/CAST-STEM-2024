@@ -101,16 +101,8 @@ cd CAST-STEM-2024
 
 3. Install Dependencies
 
-- For Linux & Windows
-
 ```bash
 python -m pip install --no-cache-dir -r requirements.txt
-```
-
-- For MacOS
-
-```bash
-python -m pip install --no-cache-dir -r requirements_macos.txt
 ```
 
 4. ROS Environment Setup [Optional]

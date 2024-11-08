@@ -4,10 +4,10 @@ torch==2.1.1
 torchvision==0.16.1
 
 # ROS
-rospkg==1.5.1
-pycryptodomex==3.20.0
-gnupg==2.3.1
-netifaces==0.11.0
+rospkg==1.5.1; sys_platform != 'darwin'  # Skip on macOS
+pycryptodomex==3.20.0; sys_platform != 'darwin'  # Skip on macOS
+gnupg==2.3.1; sys_platform != 'darwin'  # Skip on macOS
+netifaces==0.11.0; sys_platform != 'darwin'  # Skip on macOS
 
 # JupyterLab
 jupyterlab==4.2.1
@@ -38,7 +38,7 @@ pyglet==1.5.29
 # PyRender
 pyrender==0.1.45
 pyOpenGL>=3.1.0
-pyOpenGL_accelerate>=3.1.0
+pyopengl-accelerate>=3.1.0; sys_platform != 'darwin'  # Skip on macOS
 
 # MediaPipe
 mediapipe==0.10.14
