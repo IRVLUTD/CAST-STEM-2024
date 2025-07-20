@@ -2,7 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.11-3776AB.svg)](https://www.python.org/downloads/release/python-3110) [![ROS](https://img.shields.io/badge/ROS-Melodic-22314E.svg)](http://wiki.ros.org/melodic) [![Pytorch](https://img.shields.io/badge/Pytorch-2.1.1-EE4C2C.svg)](https://pytorch.org/) ![License](https://img.shields.io/badge/License-GPLv3-4E9A06.svg) [![Website](https://img.shields.io/badge/Website-Visit-lightgrey.svg)](https://sites.google.com/view/016castbridge2024)
 
-This is the repository for the CAST-STEM 2024 Summer Camp project. The project aims to estimate hand and object poses from recordings captured by the Multi-Camera System. The project website can be found [here](https://sites.google.com/view/016castbridge2024).
+This is the repository for the [CAST-STEM](https://www.cast-texas.org/) 2024 Summer Camp project. The project aims to estimate hand and object poses from recordings captured by the Multi-Camera System. The project website can be found [here](https://sites.google.com/view/016castbridge2024).
 
 ---
 
